@@ -28,3 +28,6 @@ UnitTypes.atrax.health = 1
 UnitTypes.spiroct.health = 1
 UnitTypes.arkyid.health = 1
 UnitTypes.toxopid.health = 1
+UnitTypes.alpha.health = 1
+UnitTypes.beta.health = 1
+UnitTypes.gamma.health = 1
