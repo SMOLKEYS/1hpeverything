@@ -5,4 +5,5 @@
 "description": "this is gonna be something",
 "version": "1",
 "minGameVersion": "121",
+"hidden": true
 }
