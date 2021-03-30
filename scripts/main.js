@@ -1,8 +1,6 @@
-Object.keys(UnitTypes).forEach(e => {
-    UnitTypes[e].health = 1;
+Vars.content.units().each(u => {
+    u.health = 1;
 });
-Object.keys(Blocks).forEach(h => {
-    Blocks[h].health = 1;
+Vars.content.blocks().each(b => {
+    b.health = 1;
 });
-
-
