@@ -1,33 +1,8 @@
-UnitTypes.dagger.health = 1
-UnitTypes.mace.health = 1
-UnitTypes.fortress.health = 1
-UnitTypes.scepter.health = 1
-UnitTypes.reign.health = 1
-UnitTypes.nova.health = 1
-UnitTypes.pulsar.health = 1
-UnitTypes.quasar.health = 1
-UnitTypes.vela.health = 1
-UnitTypes.corvus.health = 1
-UnitTypes.flare.health = 1
-UnitTypes.horizon.health = 1
-UnitTypes.zenith.health = 1
-UnitTypes.antumbra.health = 1
-UnitTypes.eclipse.health = 1
-UnitTypes.mono.health = 1
-UnitTypes.poly.health = 1
-UnitTypes.mega.health = 1
-UnitTypes.quad.health = 1
-UnitTypes.oct.health = 1
-UnitTypes.risso.health = 1
-UnitTypes.minke.health = 1
-UnitTypes.bryde.health = 1
-UnitTypes.sei.health = 1
-UnitTypes.omura.health = 1
-UnitTypes.crawler.health = 1
-UnitTypes.atrax.health = 1
-UnitTypes.spiroct.health = 1
-UnitTypes.arkyid.health = 1
-UnitTypes.toxopid.health = 1
-UnitTypes.alpha.health = 1
-UnitTypes.beta.health = 1
-UnitTypes.gamma.health = 1
+Object.keys(UnitTypes).forEach(e => {
+    UnitTypes[e].health = 1;
+});
+Object.keys(Blocks).forEach(h => {
+    Blocks[h].health = 1;
+});
+
+
